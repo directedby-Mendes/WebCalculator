@@ -1,0 +1,78 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-size: 20px;
+
+}
+button{
+    height: 2.5em;
+    width: 2.5em;
+    margin: 2.5px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+}
+button:hover{
+    background-color: #706879;
+}
+div{
+    text-align:center;
+}
+p{
+    text-align: center;
+    margin-top: 700px;
+    margin-left: 30px;
+}
+body{
+    background-image: url(arte.png);
+    height: 100vh;
+}
+h1{
+    background-color: rgb(101, 168, 199);
+    border-radius: 20px 20px;
+    height: 2em;
+    width: 13em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+#resultado{
+    height: 20px;
+    width: 200px;
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: right;
+}
+.zero{
+    border-radius: 20px;
+    width: 115px;
+ }
+ .operadores2{
+    background-color:#f9b323;
+ }
+ .number{
+    background-color: rgb(63, 61, 59);
+    color: white;
+ }
+.calculator{
+    background-color: black;
+    height: 19em;
+    width: 13em;
+    border-radius: 20px 20px;
+    align-items: center;
+    margin: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

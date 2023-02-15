@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/342/342344.png"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body> 
+    <h1>Calculadora</h1>
+    <main class="calculator">
+        
+        <p id=resultado placeholder=" 2+2 = 4"></p>       
+
+        <div>
+            <button onclick="clean()">AC</button>
+            <button onclick="back()"><</button>
+            <button onclick="insere('%')">%</button>
+            <button class="operadores2" onclick="insere('/')">/</button>
+        </div>   
+
+        <div>
+            <button class="number" onclick="insere('7')">7</button>
+            <button class="number" onclick="insere('8')">8</button>
+            <button class="number" onclick="insere('9')">9</button>
+            <button class="operadores2" onclick="insere('*')">X</button>
+            <br>
+            <button class="number"  onclick="insere('4')">4</button>
+            <button class="number"  onclick="insere('5')">5</button>
+            <button class="number"  onclick="insere('6')">6</button>
+            <button class="operadores2"  onclick="insere('-')">-</button>
+            <br>
+            <button class="number" onclick="insere('1')">1</button>
+            <button class="number" onclick="insere('2')">2</button>
+            <button class="number" onclick="insere('3')">3</button>
+            <button class="operadores2" onclick="insere('+')">+</button>
+            <br>
+            <button class="zero number" onclick="insere('0')">0</button>
+            <button class="number" onclick="insere('.')">.</button>   
+            <button class="operadores2" onclick="calcular()">=</button>                      
+        </div>      
+</main>
+<i><strong><p style="font-size: 11px; ">Desenvolvido por Diego Mendes</p></strong></i> 
+</body>
+</html>
